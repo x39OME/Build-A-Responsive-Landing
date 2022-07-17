@@ -199,11 +199,25 @@ section .navigation li a:hover{
   text-transform: none;
 }
 @media (max-width:991px){
+  header{
+    padding: 20px;
+  }
+  header .logo{
+    font-size:5vh
+  }
   section .sci{
     bottom: 20px;
     right: 20px;
   }
   .glass{
     width: 60%;
+  }
+  section .content h2{
+    font-size: 11vh;
+  }
+  section .content h2 span{
+    font-size: .12em;
+    letter-spacing: 2px;
+    padding: 0 5px;
   }
 }
